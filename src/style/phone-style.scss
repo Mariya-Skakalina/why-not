@@ -1,4 +1,11 @@
 @media screen and (max-width: 1100px) {
+
+    .modal-wrapper {
+        .modelalka {
+            width: 66vw;
+        }
+    }
+
     .one {
         .menu {
             justify-content: center;
@@ -14,6 +21,13 @@
         .three__content {
             width: 90vw;
             margin: auto;
+
+            .price {
+                .price__info {
+                    width: 122px;
+                    height: 122px;
+                }
+            }
         }
     }
 
@@ -30,5 +44,16 @@
                 font-size: 0.8em;
             }
         } 
+    }
+
+    .three{
+        .three__content {
+            .price {
+                .price__info {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
     }
 }

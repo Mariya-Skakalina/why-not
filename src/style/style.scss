@@ -8,11 +8,74 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	overflow-y: hidden;
 }
 
 a {
 	text-decoration: none;
 }
+
+.modal-wrapper {
+	position:fixed;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	top:0px;
+	left:0px;
+	width:100vw;
+	height:100vh;
+
+	.modelalka{
+		width: 32vw;
+		text-align: center;
+		background-color: #fde6d1;
+		padding: 3em 2em;
+		
+		div {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 1.7em;
+			
+			p {
+				font-family: "Montserrat";
+				font-weight: 700;
+				font-style: normal;
+				font-size: 1.2em;
+				color: #000;
+				background-color: #cfcfcf;
+				padding: 0.3em 1em;
+				border: 1px;
+				border-style: dotted;
+				cursor: pointer;
+			}
+		}
+	
+		h3 {
+			margin: 0em;
+			padding: 0em;
+			font-family: "Montserrat";
+			font-weight: 700;
+			font-style: normal;
+			font-size: 1.7em;
+		}
+		
+		.modalka__context {
+			font-family: "Montserrat";
+			font-weight: 500;
+			font-style: normal;
+			font-size: 1.1em;
+		}
+
+		.modalka__answer {
+			font-size: 1.3em;
+			font-family: "Montserrat";
+			font-weight: 600;
+			font-style: normal;
+		}
+	}
+}
+
+
 
 .title {
 	text-align: center;
@@ -93,12 +156,14 @@ a {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				width: 22%;
+				width: 250px;
+    			height: 250px;
 	
 				.price_img {
 					border-radius: 30em;
 					width: 100%;
 					height: 100%;
+					object-fit: cover;
 				}
 	
 				.price_value {

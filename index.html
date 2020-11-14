@@ -8,20 +8,40 @@
     <link rel="shortcut icon" href="./img/w.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="pf"></div>
+    <div class="modal-wrapper">
+        <div class="modelalka">
+            <p class="modalka__clouse"></p>
+            <h3 class="modalka__title">Подтверждение возраста</h3>
+            <p class="modalka__context">
+                Наш сайт предназначен для совершеннолетних пользователей. Для продолжения использования данного сайта Вам необходимо подтвердить свой возраст.
+            </p>
+            <p class="modalka__answer">
+                Вам есть 18 лет?
+            </p>
+            <div class="modalka__buttons">
+                <p href="" id="yes">Да</a>
+                <p href="" id="no">Нет</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="pd"></div>
+    
     <div class="one">
         <nav class="menu">
-            <a href="" class="menu__link">О нас</a>
-            <a href="" class="menu__link">Цены</a>
-            <a href="" class="menu__link">Акции</a>
-            <a href="" class="menu__link">Бронь</a>
-            <a href="" class="menu__link">Адрес</a>
+            <a href="#two" class="menu__link">О нас</a>
+            <a href="#three" class="menu__link">Цены</a>
+            <!-- <a href="#four" class="menu__link">Акции</a> -->
+            <a href="#five" class="menu__link">Бронь</a>
+            <a href="#maps" class="menu__link">Адрес</a>
         </nav>
         <div class="logo">
             <h1 logo__item>why<br/>not</h1>
         </div>
     </div>
 
-    <div class="two">
+    <div class="two" id="two">
         <h2 class="title">О нас</h2>
         <p class="two__about">
             Кальянные в нашей стране появились сравнительно недавно. Но за короткий период своего существования 
@@ -32,12 +52,12 @@
         </p>
     </div>
 
-    <div class="three">
+    <div class="three" id="three">
         <div class="three__content">
             <h2 class="title">Цены</h2>
             <div class="price">
                 <div class="price__info">
-                    <img src="./img/price/kln.png" alt="" srcset="" class="price_img">
+                    <img src="./img/price/kool.jpg" alt="" srcset="" class="price_img">
                     <p class="price_value">600 руб.</p>
                 </div>
                 <div class="price__info">
@@ -52,7 +72,7 @@
         </div>
     </div>
 
-    <div class="four">
+    <!-- <div class="four" id="four">
         <h2 class="title">Акции</h2>
         <div class="four__content">
             <div class="stock">
@@ -68,9 +88,9 @@
                 <h3 class="stock__title">Счастливые часы</h3>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="five">
+    <div class="five" id="five">
         <img class="five__img" src="./img/kok.jpg" alt="" srcset="">
         <div class="reservation">
             <h2 class="title">Бронь</h2>
@@ -79,7 +99,7 @@
         </div>
     </div>
 
-    <div class="maps">
+    <div class="maps" id="maps">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab8e7e19d5dfe9b2978ce4735cc6689d6b08091e1e9de8c572faf7ecc4843779d&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
     </div>
 
