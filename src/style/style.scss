@@ -244,7 +244,8 @@ a {
 
 footer {
 	background-color: #111;
-	padding: 2em 0em;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
 
 	.back {
 		@extend %content-size;
@@ -279,6 +280,10 @@ footer {
 			flex-direction: column;
 			align-items: center;
 			color: #8896fb;
+			font-family: "Montserrat";
+			font-weight: 500;
+			font-style: normal;
+			font-size: 0.9em;
 
 			a{
 				color: #8896fb;
@@ -298,6 +303,22 @@ footer {
 				color: #fde6d1;
 				text-decoration: underline;
 				font-size: 0.85em;
+			}
+		}
+	}
+
+	.dev {
+		border-top: 1px solid #fde6d1;
+
+		p {
+			text-align: center;
+			color: #fde6d1;
+			font-family: "Montserrat";
+			font-weight: 500;
+			font-style: normal;
+			
+			a {
+				color: #8896fb;
 			}
 		}
 	}
